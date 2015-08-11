@@ -26,7 +26,13 @@
 #pragma warning ( disable : 4786 )
 #pragma warning ( disable : 4996 )
 	#include <Windows.h>
+//////////////////////////////////////////////////////////////////////////
+//windowsÄÚ´æÐ¹Â©¼ì²â»úÖÆ
+	#define _CRTDBG_MAP_ALLOC
+	#include <stdlib.h>
 	#include "crtdbg.h"
+	#define new  new(_CLIENT_BLOCK, __FILE__, __LINE__) 
+//////////////////////////////////////////////////////////////////////////
 #elif defined(__LINUX__)
 	#include <sys/types.h>
 	#include <pthread.h>

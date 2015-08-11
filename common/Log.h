@@ -21,7 +21,7 @@ enum LOG_FILE_NAME_ID
 #define SERVER_LOGFILE					"./Log/Debug.log"
 #define SERVER_ERRORFILE				"./Log/Error.log"
 #define SERVER_FUNCTIONFILE				"./Log/Functions.log"
-#define WORLD_LOGFILE					"./Log/world.log"
+#define BATTLESERVER_LOGFILE					"./Log/battleserver.log"
 #define CONFIG_LOGFILE					"./Log/config.log"
 #define ASSERT_LOGFILE					"./Log/assert.log"
 #define RECYCLEPLAYER_LOGFILE			"./Log/RecyclePlayer.log"
